@@ -1,5 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
+    name: 'home',
     keepalive: true
 })
 </script>

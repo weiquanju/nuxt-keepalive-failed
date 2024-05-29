@@ -4,4 +4,5 @@ export default defineNuxtConfig({
   app: {
     keepalive: true,
   },
+  ssr: false,
 });

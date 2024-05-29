@@ -1,7 +1,9 @@
 <template>
   <div>
-    <NuxtLayout>
-      <NuxtPage :keepalive="true" />
-    </NuxtLayout>
+    <ClientOnly>
+      <NuxtLayout>
+        <NuxtPage :keepalive="true" />
+      </NuxtLayout>
+    </ClientOnly>
   </div>
 </template>
